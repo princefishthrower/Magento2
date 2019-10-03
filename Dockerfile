@@ -15,7 +15,6 @@ RUN apt-get update \
 	libicu-dev \
   libssl-dev \
 	libjpeg62-turbo-dev \
-	libmcrypt-dev \
 	libedit-dev \
 	libedit2 \
 	libxslt1-dev \
@@ -45,7 +44,6 @@ RUN docker-php-ext-configure \
   	bcmath \
   	intl \
   	mbstring \
-  	mcrypt \
   	pdo_mysql \
   	soap \
   	xsl \
