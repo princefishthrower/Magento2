@@ -1,4 +1,4 @@
-FROM php:7.2-apache
+FROM php:7.2.22-apache
 
 MAINTAINER Chris Frewin <frewin.christopher@gmail.com>
 
