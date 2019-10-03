@@ -22,7 +22,7 @@ RUN apt-get update \
 	apt-utils \
 	gnupg \
 	redis-tools \
-	mysql-client \
+	default-mysql-client \
 	git \
 	vim \
 	wget \
